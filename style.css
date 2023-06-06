@@ -1,0 +1,97 @@
+h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+  
+
+  div.gallery {
+  border: 1px solid #ccc;
+  background-color: rgb(146, 146, 146);
+  padding:.02rem;
+  margin: 10%;
+
+
+}
+.h1{
+    background-color: lightcoral;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 10px;
+    margin-left: 45%;
+    border: black 4px;
+}
+.h2{
+    background-color: brown;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 10px;
+    margin-left: 50%;
+}
+.h3{
+    background-color: yellow;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 10px;
+    margin-left: 60%;
+}
+
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 32%;
+  
+}
+.rsponsive {
+    padding: 0 6px;
+    float: left;
+    width: 32%;
+    
+  }
+@media (min-width:768px) and (max-width: 991px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+  .rsponsive {
+    width: 100%;
+    margin: 6px 0;
+  
+}
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .responsive {
+    width: 100%;
+  }
+  .rsponsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.h3{
+    background-color: yellow;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 10px;
+    margin-left: 90;
+}
